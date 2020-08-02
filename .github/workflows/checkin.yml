@@ -9,8 +9,8 @@ on:
     - cron:  0 10,16 * * * 
       # 
       # https://tool.lu/crontab/ 
-  watch:
-      types: started   
+  # watch:
+      # types: started   
 
 jobs:
   checkin:

@@ -27,7 +27,15 @@
 
 2. 注册GLaDOS，方法见上。
 
-3. 登录GLaDOS后获取cookies。（简单获取方法：浏览器快捷键F12，打开调试窗口，点击“network”获取）
+3. 登录GLaDOS后获取cookies。（简单获取方法：浏览器快捷键F12，打开调试窗口，点击“network”获取）获取方法：
+
++ 首先使用 Chrome 浏览器登录 GLaDOS
++ 然后打开开发者工具, `win` 系统 快捷键 `F12` ，`mac` 快捷键 `option + command + i`
++ 打开开发者工具中的 `Network` 选项卡，刷新页面，然后选第一个 `console`，然后找到右侧的 `Cookie` 字段，复制出来。
+
+如图操作：
+
+![](https://cdn.jsdelivr.net/gh/yangchuansheng/imghosting/img/20200802090832.png)
 
 4. 在自己的仓库“Settings”里创建3个“Secrets”，分别是：（不开启通知，只需要创建一个COOKIE即可）
 
